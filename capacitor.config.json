@@ -1,0 +1,7 @@
+{
+  "appId": "com.bglocation.app",
+  "appName": "bglocation",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

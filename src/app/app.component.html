@@ -1,0 +1,10 @@
+<ion-content>
+  <ion-row justify-content-center align-items-center style="height:100%">
+    <div class="card-padding tr-column font">
+      <div class="justify-content-center tr-column">
+        <ion-button [disabled]="IsTrackingEnabled" (click)="StartTracking()">Check In</ion-button>
+        <ion-button [disabled]="!IsTrackingEnabled" (click)="StopTracking()">Check Out</ion-button>
+      </div>
+    </div>
+  </ion-row>
+</ion-content>

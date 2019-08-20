@@ -2,5 +2,6 @@
 Android app to track user location
 
 # Steps to setup:
-Run ionic build and npx cap add android
+# 1: ionic build 
+# 2: npx cap add android
 
